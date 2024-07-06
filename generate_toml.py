@@ -122,9 +122,9 @@ options = Options(
 
 # Define the general information of your package
 kwargs = Kwargs(
-    name_space="crimson-templator",
-    module_name="requirements",
-    description="requirements file templates.",
+    name_space="crimson",
+    module_name="loader-test",
+    description="Simple tool to help test loading and downloading.",
 )
 
 kwargs_skeleton = kwargs.model_copy ()
